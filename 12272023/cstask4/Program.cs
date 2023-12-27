@@ -17,7 +17,7 @@ namespace cstask4
             Console.WriteLine(EnBoyuk(nums));//Task 5
             Console.WriteLine(MusbetCut(10)); //Task 6
             Console.WriteLine(SiyahiSayi(nums)); //Task 7
-            Console.WriteLine(YeniSiyahi(nums));//Task 8
+            
 
             int[] resultArray = YeniSiyahi(nums);
             Console.WriteLine("Yeni array: [" + string.Join(", ", resultArray) + "]"); //Task 8
