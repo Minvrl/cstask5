@@ -207,7 +207,7 @@ namespace cstask4
             return newStr;
         }
 
-        // Method to find the index of the last non-space character in a string
+        
         static int SonIndex(string str)
         {
             for (int i = str.Length - 1; i >= 0; i--)
